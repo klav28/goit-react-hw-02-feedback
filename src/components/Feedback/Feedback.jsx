@@ -29,7 +29,7 @@ class Feedback extends Component {
 
   render() {
     return (
-      <main>
+      <>
         <Section title="Please Leave Feedback">
           <FeedbackOptions
             onLeaveFeedback={this.handleOnLeaveFeedback}
@@ -49,7 +49,7 @@ class Feedback extends Component {
             <Notification message="There is no feedback" />
           )}
         </Section>
-      </main>
+      </>
     );
   }
 }
